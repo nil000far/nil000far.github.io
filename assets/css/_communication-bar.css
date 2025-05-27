@@ -1,0 +1,25 @@
+
+.communication-bar{
+    background-color: #00BFA5;
+    padding: 8px;
+  }
+  .communication{
+    color: #fff;
+  }
+  .communication :first-child span i{
+    color: #102E50;
+    margin: 0 5px;
+  }
+  #social-media span{
+    float: left;
+  }
+  .communication :last-child span i{
+  font-size: 24px;
+  margin: 0 8px;
+  }
+  .communication :last-child span i:hover{
+    color: #102E50;
+  
+    }
+  
+    
