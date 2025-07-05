@@ -12,13 +12,16 @@ body {
   }
   
 .container {
-  clear: both;
   display: block;
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
-
+.container::after{
+  content: '';
+  display: table;
+  clear: both;
+}
 .row::after {
   content: '';
   clear: both;
